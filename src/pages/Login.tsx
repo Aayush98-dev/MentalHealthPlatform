@@ -53,7 +53,7 @@ export default function Login() {
         <div className="flex flex-col items-center mb-12">
           <motion.div 
             whileHover={{ rotate: 12, scale: 1.1 }}
-            className="w-24 h-24 bg-gradient-to-br from-brand-accent to-brand-purple rounded-[2.5rem] flex items-center justify-center mb-8 shadow-2xl relative group"
+            className="w-24 h-24 bg-linear-to-br from-brand-accent to-brand-purple rounded-[2.5rem] flex items-center justify-center mb-8 shadow-2xl relative group"
           >
             <div className="absolute inset-0 bg-white/20 rounded-[2.5rem] animate-ping opacity-0 group-hover:opacity-40 transition-opacity" />
             <Heart className="text-white w-12 h-12" fill="white" />
@@ -62,9 +62,9 @@ export default function Login() {
             Serenity <span className="text-slate-500">AI</span>
           </h1>
           <div className="flex items-center gap-3 mt-4">
-             <span className="w-8 h-[1px] bg-slate-800" />
+             <span className="w-8 h-px bg-slate-800" />
              <p className="text-[10px] font-black text-slate-500 uppercase tracking-[0.4em]">Neural Bridge Active</p>
-             <span className="w-8 h-[1px] bg-slate-800" />
+             <span className="w-8 h-px bg-slate-800" />
           </div>
         </div>
 
